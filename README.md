@@ -1,18 +1,56 @@
-## Getting Started
+# Library System Management
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+##  Overview
+This is a Java Swing-based Library Management System designed to manage book records efficiently using Object-Oriented Programming (OOP) principles and file handling.
 
-## Folder Structure
+The system supports basic CRUD operations (Create, Read, Update, Delete) and stores data in a text file for persistence.
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+##  Features
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+-  Add new books  
+-  View books in JTable  
+-  Update book records  
+-  Delete books  
+-  Save data to text file (`books.txt`)  
+-  Load data from file on startup  
+-  User-friendly GUI using Java Swing  
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+##  Data Fields
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Each book record contains:
+
+- Book ID  
+- Title  
+- Author  
+- Genre  
+- Publication Date  
+- Shelf Location  
+- Availability Status  
+
+---
+
+##  Technologies Used
+
+- Java (JDK 8+)  
+- Java Swing (GUI)  
+- File Handling (BufferedReader, FileWriter)  
+- Object-Oriented Programming (OOP)  
+
+---
+
+##  Project Structure
+
+Library-System-Management/
+│
+├── src/
+│ ├── Library.java
+│ ├── LibrarySystem.java
+│ ├── LibraryGUI.java
+│ └── LibraryForm.java
+│
+├── books.txt
+└── README.md
